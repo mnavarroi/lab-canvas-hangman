@@ -2,9 +2,9 @@ var hangman;
 
 function Hangman() {
   this.words=["uno","dos", "tres"];
-  this.secretWord="";
+  this.secretWord='';
   this.letters=[];
-  this.guessedLetter;
+  this.guessedLetter='';
   this.errorsLeft = 10;
 }
 
